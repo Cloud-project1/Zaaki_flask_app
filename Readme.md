@@ -1,6 +1,7 @@
 <img width="555" alt="image" src="https://user-images.githubusercontent.com/102805353/162575394-7a887c43-c3f0-4a76-a6ec-d9bb2d91f011.png">
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/102805353/162577171-c52b1c48-1fad-441c-858a-3fc6ac8db059.gif)
+![ezgif com-gif-maker-2](https://user-images.githubusercontent.com/102805353/162577382-e8c60d8a-46ea-4782-8b89-5d4f3d60cb46.gif)
+
 
 ## About
 
