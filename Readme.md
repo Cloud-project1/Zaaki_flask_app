@@ -1,5 +1,6 @@
 <img width="555" alt="image" src="https://user-images.githubusercontent.com/102805353/162575394-7a887c43-c3f0-4a76-a6ec-d9bb2d91f011.png">
 
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/102805353/162577171-c52b1c48-1fad-441c-858a-3fc6ac8db059.gif)
 
 ## About
 
@@ -21,21 +22,28 @@ The front-end of the website is user friendly and easily navigate
 
 Postman was used to test the API for CRUD operations. Please refer to the video for the full explanation and examples.
 
-FLASK-restful-app:
+**FLASK-restful-app:**
 
 The following libraries were added to support the app.route function:
-
-<img width="448" alt="image" src="https://user-images.githubusercontent.com/102805353/162567943-84650309-f2f5-4bb2-9ab3-127bae623445.png">
-
+```
+import requests
+import sqlite3 as sql
+import urllib
+from random import randint
+from flask import Flask, render_template, url_for, request
+```
 The recipe APP was created by executing the code below:
-
-<img width="441" alt="image" src="https://user-images.githubusercontent.com/102805353/162568328-7f0d3f21-5711-4090-bd67-2cc7a6146c9a.png">
-
+```
+@app.route('/')
+@app.route('/home')
+def home():
+    return render_template("ZKHP.html")
+```
 Running the app.py file would result in:
 
 <img width="389" alt="image" src="https://user-images.githubusercontent.com/102805353/162568512-5bbfe32e-89a7-47fd-8f2f-0680342126d4.png">
 
-# Cloud App:
+**Cloud App:**
 
 <img width="350" alt="image" src="https://user-images.githubusercontent.com/102805353/162575286-f529117f-80b0-49ce-a309-be1942d79da5.png">
 
@@ -46,8 +54,9 @@ This application is served over the Heroku cloud platform.
 The application is not currently load balanced but supports HTTPS for the deployment of the app.
 
 To run the app on your local machine you can use the command:
-
+```
   $ flask run --cert=adhoc
+```
 
 ## Front End
 
