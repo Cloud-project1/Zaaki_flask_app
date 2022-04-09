@@ -12,6 +12,15 @@ Note: -----
 
 The front-end of the website is user friendly and easily navigate  
 
+Heroku 
+
+This application is served over the Heroku cloud platform. 
+
+The application is not currently load balanced but supports HTTPS for the deployment of the app.
+
+To run the app on your local machine you can use the command:
+$ flask run --cert=adhoc 
+
 
 ## Backend
 
