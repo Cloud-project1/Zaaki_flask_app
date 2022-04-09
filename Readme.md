@@ -11,7 +11,6 @@ At Zaaki we are passionate about sharing the worlds cuisine from the comfort of 
 
 Zaaki is a new exciting way of exploring the world through your kitchen! By searching a key ingredient that you have , Zaaki will search for a recipe that holds the key to unlocking your journey around the world! 
 
-Note: -----
 
 ## Systems Architecture
 
