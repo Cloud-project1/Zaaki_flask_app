@@ -16,17 +16,6 @@ Note: -----
 The front-end of the website is user friendly and easily navigate
 <img width="662" alt="image" src="https://user-images.githubusercontent.com/102805353/162575104-d4084cbc-0e27-41bc-a048-ca1108f1f4a0.png">
 
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AHeroku_logo.svg&psig=AOvVaw1xVTN_D1BNdHwFRHF9C9Fi&ust=1649595510526000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCMiIxqWEh_cCFQAAAAAdAAAAABAD![image](https://user-images.githubusercontent.com/102805353/162575129-b9c200b2-5b32-40d3-95f6-09617ebce619.png)
-
-Heroku 
-
-This application is served over the Heroku cloud platform. 
-
-The application is not currently load balanced but supports HTTPS for the deployment of the app.
-
-To run the app on your local machine you can use the command:
-$ flask run --cert=adhoc 
-
 
 ## Backend
 
@@ -46,7 +35,7 @@ Running the app.py file would result in:
 
 <img width="389" alt="image" src="https://user-images.githubusercontent.com/102805353/162568512-5bbfe32e-89a7-47fd-8f2f-0680342126d4.png">
 
-## Cloud App:
+# Cloud App:
 
 <img width="350" alt="image" src="https://user-images.githubusercontent.com/102805353/162575286-f529117f-80b0-49ce-a309-be1942d79da5.png">
 
