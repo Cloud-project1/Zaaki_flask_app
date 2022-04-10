@@ -74,7 +74,7 @@ This serves the apps ip through a https server.
 
 ## Database
 
-Furthermore, i created a database, using SQLAlchemy which had to be grabbed externally as Flask does not serve this functionality, this can be found in the db.py file, and the run.py file. There was also a checkpasswordsafe.py file, this authenticated users through checking the database to see if their username and password was saved on the system.
+Furthermore, i created a database, using SQLAlchemy which had to be grabbed externally as Flask does not serve this functionality, this can be found in the db.py file, and the run.py file. The user.py file allows users to create a username and login. There was also a checkpasswordsafe.py file, this authenticated users through checking the database to see if their username and password was saved on the system.
 
 
 
