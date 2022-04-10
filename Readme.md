@@ -64,3 +64,19 @@ The current version of the front-end can only be ran locally. It was successfull
 
 ![ezgif com-gif-maker-3](https://user-images.githubusercontent.com/102805353/162577654-b6864fa6-d16f-4b88-b195-c6d608248caf.gif)
 
+## HTTPS Serving
+
+The https serving was utilised using SSL, simply by adding this line of code at the end of the app.py file:
+if __name__ == "__main__":
+    app.run(ssl_context='adhoc')
+    
+This serves the apps ip through a https server.
+
+## Database
+
+Furthermore, i created a database, using SQLAlchemy which had to be grabbed externally as Flask does not serve this functionality, this can be found in the db.py file, and the run.py file. There was also a checkpasswordsafe.py file, this authenticated users through checking the database to see if their username and password was saved on the system.
+
+
+
+
+
