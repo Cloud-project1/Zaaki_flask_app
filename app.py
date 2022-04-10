@@ -101,3 +101,5 @@ def display_recipe_labels(data, index):
     print()
     return index
 
+if __name__ == "__main__":
+    app.run(ssl_context='adhoc')
