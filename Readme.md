@@ -60,7 +60,7 @@ To run the app on your local machine you can use the command:
 
 ## Front End
 
-The current version of the front-end can only be ran locally. It was successfully tested on macOS Big Sur launched over the command line. The IOS simulator or Android emulator can be launched through the web interface of the local server. Node.js is required alongside with the respective Node version, please see nvm and docker section above in further detail.
+The current version of the front-end can only be ran locally. It was successfully tested with LambdaTest, a a cloud-based cross browser testing tool that allows you to perform cross browser testing for web applications across more than 2000 browsers, operating systems, and devices. 
 
 ![ezgif com-gif-maker-3](https://user-images.githubusercontent.com/102805353/162577654-b6864fa6-d16f-4b88-b195-c6d608248caf.gif)
 
